@@ -5,16 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.trungtmnguyen</groupId>
-    <artifactId>leetcode-in-java</artifactId>
+    <artifactId>easy</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>algorithms</artifactId>
-  <packaging>pom</packaging>
 
-  <modules>
-    <module>easy</module>
-    <module>medium</module>
-  </modules>
+  <artifactId>remove-linked-list-elements</artifactId>
 
   <properties>
     <maven.compiler.source>21</maven.compiler.source>
