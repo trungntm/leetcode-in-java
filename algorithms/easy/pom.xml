@@ -29,6 +29,8 @@
     <module>sqrt-x</module>
     <module>length-of-last-word</module>
     <module>remove-linked-list-elements</module>
+    <module>climbing-stairs</module>
+    <module>remove-duplicates-from-sorted-list</module>
   </modules>
 
   <properties>
