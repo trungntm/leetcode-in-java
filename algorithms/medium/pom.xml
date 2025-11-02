@@ -9,26 +9,12 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>easy</artifactId>
+  <artifactId>medium</artifactId>
   <packaging>pom</packaging>
-
   <modules>
-    <module>two-sum</module>
-    <module>add-two-numbers</module>
-    <module>palindrome-number</module>
-    <module>roman-to-integer</module>
-    <module>longest-common-prefix</module>
-    <module>valid-parentheses</module>
-    <module>merge-two-shorted-lists</module>
-    <module>remove-duplicates-from-sorted-array</module>
-    <module>remove-element</module>
-    <module>find-the-index-of-the-first-occurrence-in-a-string</module>
-    <module>search-insert-position</module>
-    <module>plus-one</module>
-    <module>add-binary</module>
-    <module>sqrt-x</module>
-    <module>length-of-last-word</module>
-    <module>remove-linked-list-elements</module>
+    <module>longest-substring-without-repeating-characters</module>
+    <module>longest-palindromic-substring</module>
+    <module>delete-nodes-from-linked-list-present-in-array</module>
   </modules>
 
   <properties>
