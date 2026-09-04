@@ -19,38 +19,38 @@ public class Solutions {
 
     return prefix;
 
-//    Solution 2: Find shortest string and compare each character
-//    if (strs == null || strs.length == 0) {
-//      return "";
-//    }
-//
-//    int index = findIndexOfShortestString(strs);
-//
-//    char[] array = strs[index].toCharArray();
-//    StringBuilder temp = new StringBuilder();
-//
-//    for (int charIndex = 0; charIndex < array.length; charIndex++) {
-//      char currentChar = array[charIndex];
-//      boolean allMatch = true;
-//
-//      for (int i = 0; i < strs.length; i++) {
-//        if (i == index) {
-//          continue;
-//        }
-//        if (strs[i].charAt(charIndex) != currentChar) {
-//          allMatch = false;
-//          break;
-//        }
-//      }
-//
-//      if (allMatch) {
-//        temp.append(currentChar);
-//      } else {
-//        break;
-//      }
-//    }
-//
-//    return temp.toString();
+    //    Solution 2: Find shortest string and compare each character
+    //    if (strs == null || strs.length == 0) {
+    //      return "";
+    //    }
+    //
+    //    int index = findIndexOfShortestString(strs);
+    //
+    //    char[] array = strs[index].toCharArray();
+    //    StringBuilder temp = new StringBuilder();
+    //
+    //    for (int charIndex = 0; charIndex < array.length; charIndex++) {
+    //      char currentChar = array[charIndex];
+    //      boolean allMatch = true;
+    //
+    //      for (int i = 0; i < strs.length; i++) {
+    //        if (i == index) {
+    //          continue;
+    //        }
+    //        if (strs[i].charAt(charIndex) != currentChar) {
+    //          allMatch = false;
+    //          break;
+    //        }
+    //      }
+    //
+    //      if (allMatch) {
+    //        temp.append(currentChar);
+    //      } else {
+    //        break;
+    //      }
+    //    }
+    //
+    //    return temp.toString();
   }
 
   private int findIndexOfShortestString(String[] strs) {

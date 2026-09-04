@@ -9,6 +9,5 @@ public class PlusOneMain {
     for (int digit : result) {
       System.out.print(digit + " ");
     }
-
   }
 }

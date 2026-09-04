@@ -12,7 +12,7 @@ public class Solutions {
     int j = bArr.length - 1;
     int carry = 0;
 
-    while (i >= 0 || j >= 0 || carry >0) {
+    while (i >= 0 || j >= 0 || carry > 0) {
       int sum = carry;
 
       if (i >= 0) {

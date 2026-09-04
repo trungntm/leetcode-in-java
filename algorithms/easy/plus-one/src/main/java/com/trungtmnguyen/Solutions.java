@@ -10,7 +10,7 @@ public class Solutions {
     int index = sumArr.length - 1;
 
     while (length > 0) {
-      int sum = digits[length -1] + carry;
+      int sum = digits[length - 1] + carry;
       carry = sum / 10;
       sumArr[index] = sum % 10;
       length--;

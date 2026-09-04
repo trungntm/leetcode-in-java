@@ -19,7 +19,7 @@ public class Solutions2 {
     ListNode currNode = resultNode;
 
     while (head != null) {
-      if (head.val > maxSize ||!visited[head.val]) {
+      if (head.val > maxSize || !visited[head.val]) {
         currNode.next = head;
         currNode = currNode.next;
       }

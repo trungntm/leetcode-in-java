@@ -14,9 +14,9 @@ public class Solutions2 {
           return false;
         }
         char openThese = stack[top--];
-        if ((c == ')' && openThese != '(') ||
-            (c == ']' && openThese != '[') ||
-            (c == '}' && openThese != '{')) {
+        if ((c == ')' && openThese != '(')
+            || (c == ']' && openThese != '[')
+            || (c == '}' && openThese != '{')) {
           return false;
         }
       }

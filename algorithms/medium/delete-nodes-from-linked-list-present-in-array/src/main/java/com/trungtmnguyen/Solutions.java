@@ -15,7 +15,6 @@ public class Solutions {
     ListNode resultNode = new ListNode();
     ListNode currentNode = resultNode;
 
-
     while (head != null) {
       if (!numsSet.contains(head.val)) {
         currentNode.next = new ListNode(head.val);

@@ -14,6 +14,5 @@ public class RemoveDuplicatesFromSortedArrayMain {
       assert nums[i] == expectedNums[i];
       System.out.printf("nums[%d] = %d%n, expectNums[%d] = %d%n", i, nums[i], i, expectedNums[i]);
     }
-
   }
 }

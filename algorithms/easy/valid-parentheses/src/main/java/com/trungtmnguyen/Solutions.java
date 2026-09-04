@@ -25,21 +25,21 @@ public class Solutions {
       }
 
       if (c == ')') {
-        char openThese= stack.pop();
+        char openThese = stack.pop();
         if (openThese != '(') {
           return false;
         }
       }
 
       if (c == ']') {
-        char openThese= stack.pop();
+        char openThese = stack.pop();
         if (openThese != '[') {
           return false;
         }
       }
 
       if (c == '}') {
-        char openThese= stack.pop();
+        char openThese = stack.pop();
         if (openThese != '{') {
           return false;
         }

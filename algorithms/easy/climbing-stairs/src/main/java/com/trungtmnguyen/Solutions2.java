@@ -7,11 +7,11 @@ package com.trungtmnguyen;
  * n = 4 -> 5 (2 + 3)
  * n = 5 -> 8 (3 + 5)
  * Solution: steps[n] = steps[n-1] + steps[n-2] (Bottom up)
-* */
+ * */
 public class Solutions2 {
 
   public int climbStairs(int n) {
-    if (n == 1 || n ==2) {
+    if (n == 1 || n == 2) {
       return n;
     }
 

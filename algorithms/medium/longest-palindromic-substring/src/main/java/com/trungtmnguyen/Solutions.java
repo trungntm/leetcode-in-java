@@ -31,5 +31,4 @@ public class Solutions {
 
     return right - left - 1;
   }
-
 }

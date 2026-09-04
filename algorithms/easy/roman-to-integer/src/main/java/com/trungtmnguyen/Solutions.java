@@ -3,6 +3,7 @@ package com.trungtmnguyen;
 public class Solutions {
 
   private static final int[] VALUES = new int[256];
+
   static {
     VALUES['I'] = 1;
     VALUES['V'] = 5;
