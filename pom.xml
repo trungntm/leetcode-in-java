@@ -13,6 +13,7 @@
     <module>algorithms</module>
     <module>algorithms/medium/6.zigzag-conversion</module>
     <module>algorithms/medium/7.reverse-integer</module>
+    <module>algorithms/medium/8.string-to-integer</module>
   </modules>
 
   <properties>
